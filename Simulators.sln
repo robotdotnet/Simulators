@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverStationGUI", "DriverStationGUI\DriverStationGUI.csproj", "{E75001BB-0FEE-45B7-9C68-DB2253E67ABF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game1", "Game1\Game1.csproj", "{FBB03119-FCFD-4D7E-B655-FD1FA5D76394}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E75001BB-0FEE-45B7-9C68-DB2253E67ABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E75001BB-0FEE-45B7-9C68-DB2253E67ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E75001BB-0FEE-45B7-9C68-DB2253E67ABF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E75001BB-0FEE-45B7-9C68-DB2253E67ABF}.Debug|x86.Build.0 = Debug|Any CPU
+		{E75001BB-0FEE-45B7-9C68-DB2253E67ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E75001BB-0FEE-45B7-9C68-DB2253E67ABF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E75001BB-0FEE-45B7-9C68-DB2253E67ABF}.Release|x86.ActiveCfg = Release|Any CPU
+		{E75001BB-0FEE-45B7-9C68-DB2253E67ABF}.Release|x86.Build.0 = Release|Any CPU
+		{FBB03119-FCFD-4D7E-B655-FD1FA5D76394}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{FBB03119-FCFD-4D7E-B655-FD1FA5D76394}.Debug|x86.ActiveCfg = Debug|x86
+		{FBB03119-FCFD-4D7E-B655-FD1FA5D76394}.Debug|x86.Build.0 = Debug|x86
+		{FBB03119-FCFD-4D7E-B655-FD1FA5D76394}.Release|Any CPU.ActiveCfg = Release|x86
+		{FBB03119-FCFD-4D7E-B655-FD1FA5D76394}.Release|x86.ActiveCfg = Release|x86
+		{FBB03119-FCFD-4D7E-B655-FD1FA5D76394}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

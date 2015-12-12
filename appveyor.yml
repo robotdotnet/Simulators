@@ -1,0 +1,28 @@
+version: 2016.0.0.{build}
+skip_tags: true
+os: Visual Studio 2015
+configuration: Release
+assembly_info:
+  patch: true
+  file: '**\AssemblyInfo.*'
+  assembly_version: '{version}'
+  assembly_file_version: '{version}'
+  assembly_informational_version: '{version}'
+nuget:
+  disable_publish_on_pr: true
+before_build:
+- cmd: nuget restore
+build:
+  project: Simulators.sln
+  verbosity: minimal
+
+on_success:
+- ps: >-
+    
+    If (($env:APPVEYOR_REPO_BRANCH -eq "master") -and (!$env:APPVEYOR_PULL_REQUEST_NUMBER)) {
+
+    ./nuget pack "$env:APPVEYOR_BUILD_FOLDER\DriverStationGUI\MonoGameSimulator.nuspec" -Properties "Configuration=Release;Platform=AnyCPU" -Symbols -IncludeReferencedProjects
+
+    Get-ChildItem .\*.nupkg | % { Push-AppveyorArtifact $_.FullName -FileName $_.Name }
+
+    }
