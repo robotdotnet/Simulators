@@ -21,7 +21,7 @@ on_success:
     
     If (($env:APPVEYOR_REPO_BRANCH -eq "master") -and (!$env:APPVEYOR_PULL_REQUEST_NUMBER)) {
 
-    ./nuget pack "$env:APPVEYOR_BUILD_FOLDER\DriverStationGUI\MonoGameSimulator.nuspec" -Properties "Configuration=Release;Platform=AnyCPU" -Symbols -IncludeReferencedProjects
+    ./nuget pack "$env:APPVEYOR_BUILD_FOLDER\DriverStationGUI\MonoGameSimulator.nuspec" -Properties "Configuration=Release;Platform=AnyCPU" -Symbols -IncludeReferencedProjects -Version $env:APPVEYOR_BUILD_VERSION
 
     Get-ChildItem .\*.nupkg | % { Push-AppveyorArtifact $_.FullName -FileName $_.Name }
 

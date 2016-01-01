@@ -6,20 +6,19 @@
     <title>FRC MonoGame Simulator</title>
     <authors>RobotDotNet</authors>
     <owners>RobotDotNet</owners>
-    <licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
-    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <licenseUrl>https://github.com/robotdotnet/Simulators/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/robotdotnet/Simulators</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Testing</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
-    <copyright>Copyright 2015</copyright>
-    <tags>Tag1 Tag2</tags>
+    <description>FRC Functionality for MonoGame</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>FRC WPILib RoboRIO</tags>
     <frameworkAssemblies>
         <frameworkAssembly assemblyName="System.Windows.Forms" />
     </frameworkAssemblies>
     <dependencies>
     <group>
-	<dependency id="FRC.WPILib" version="2016.0.0.170" />
+	<dependency id="FRC.WPILib" version="2016.0.0.245" />
 	<dependency id="monogame.framework.windowsdx" version="3.4.0.459" />
     </group>
   </dependencies>
