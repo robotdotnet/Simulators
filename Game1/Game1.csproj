@@ -51,7 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="HAL, Version=2016.0.0.170, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FRC.WPILib.2016.0.0.170\lib\net45\HAL.dll</HintPath>
+      <HintPath>..\packages\FRC.WPILib.2016.0.0.257\lib\net45\HAL.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MonoGame.Framework, Version=3.4.0.459, Culture=neutral, processorArchitecture=MSIL">
@@ -59,7 +59,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="NetworkTables, Version=2016.0.0.138, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FRC.NetworkTables.2016.0.0.138\lib\net45\NetworkTables.dll</HintPath>
+      <HintPath>..\packages\FRC.NetworkTables.2016.0.0.148\lib\net45\NetworkTables.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="NIVision, Version=2016.0.0.170, Culture=neutral, processorArchitecture=MSIL">
@@ -70,7 +70,7 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="WPILib, Version=2016.0.0.170, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FRC.WPILib.2016.0.0.170\lib\net45\WPILib.dll</HintPath>
+      <HintPath>..\packages\FRC.WPILib.2016.0.0.257\lib\net45\WPILib.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
