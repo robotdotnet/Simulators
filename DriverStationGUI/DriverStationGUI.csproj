@@ -35,8 +35,8 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="HAL, Version=2016.0.0.257, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FRC.WPILib.2016.0.0.257\lib\net45\HAL.dll</HintPath>
+    <Reference Include="HAL, Version=2016.0.0.258, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FRC.WPILib.2016.0.0.258\lib\net45\HAL.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MonoGame.Framework, Version=3.4.0.459, Culture=neutral, processorArchitecture=MSIL">
