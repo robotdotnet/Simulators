@@ -18,7 +18,7 @@
     </frameworkAssemblies>
     <dependencies>
     <group>
-	<dependency id="FRC.WPILib" version="2016.0.0.259" />
+	<dependency id="FRC.WPILib" version="22016.0.2.45" />
 	<dependency id="monogame.framework.windowsdx" version="3.4.0.459" />
     </group>
   </dependencies>
